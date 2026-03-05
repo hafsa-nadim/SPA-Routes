@@ -1,1 +1,75 @@
 @import "tailwindcss";
+
+.app{
+min-height:100vh;
+transition:0.3s;
+}
+
+/* LIGHT THEME */
+
+.app.light{
+background:white;
+color:#111;
+}
+
+/* DARK THEME */
+
+.app.dark{
+background:#111;
+color:white;
+}
+
+.app.dark .nav{
+background:#1f1f1f;
+}
+
+/* DANGER THEME */
+
+.app.danger{
+background:#7f1d1d;
+color:white;
+}
+
+.app.danger .nav{
+background:#991b1b;
+}
+
+/* NAVBAR */
+
+.nav{
+display:flex;
+gap:20px;
+padding:20px;
+background:#f3f4f6;
+}
+
+/* THEME BUTTONS */
+
+.theme-switcher{
+display:flex;
+gap:10px;
+padding:20px;
+}
+
+.theme-switcher button{
+padding:8px 16px;
+border:none;
+cursor:pointer;
+border-radius:6px;
+}
+
+.theme-btn{
+padding:10px 20px;
+border-radius:6px;
+border:none;
+cursor:pointer;
+}
+
+.primary{
+background:#3b82f6;
+color:white;
+}
+
+.secondary{
+background:#e5e7eb;
+}
