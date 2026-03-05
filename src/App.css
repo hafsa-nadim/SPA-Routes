@@ -1,26 +1,31 @@
 @import "tailwindcss";
 
-.theme-blue .theme-btn{
-background:#3b82f6;
+.theme-blue {
+  background: #eff6ff;
+  min-height: 100vh;
 }
 
-.theme-pink .theme-btn{
-background:#ec4899;
+.theme-pink {
+  background: #fdf2f8;
+  min-height: 100vh;
 }
 
-.theme-green .theme-btn{
-background:#10b981;
+.theme-green {
+  background: #f0fdf4;
+  min-height: 100vh;
 }
 
-.theme-purple .theme-btn{
-background:#8b5cf6;
+.theme-purple {
+  background: #f5f3ff;
+  min-height: 100vh;
 }
 
-.theme-dark{
-background:#111;
-color:white;
+.theme-dark {
+  background: #111;
+  color: white;
+  min-height: 100vh;
 }
 
-.theme-dark .theme-btn{
-background:#444;
+.theme-dark .theme-btn {
+  background: #444;
 }
